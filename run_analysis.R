@@ -2,8 +2,8 @@
 #Data obtained from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 #__________________________________________________________________________________________________
 ##Setting your working directory:
-#Set your working directory to the base folder that contains the "UCI HAR Dataset". So if your data 
-#is stored as such: "baseFolder\UCI HAR Dataset\..." set your working directory to "baseFolder"
+#Set your working directory to the base directory that contains the "UCI HAR Dataset". So if your data 
+#is stored as such: "BaseDirectory\UCI HAR Dataset\..." set your working directory as "BaseDirectory"
 #_________________________________________________________________________________________________
 #Load libraries
 library(dplyr)
@@ -115,3 +115,5 @@ summaryDataSet<-tbl_df(allDataSubset) %>% select(-c(dataSource,activityNr)) %>% 
         summarise_each(funs(mean)) %>% arrange(activityName)
 #write the table to a text file
 write.table(summaryDataSet,"summaryDataSet.txt",row.name=FALSE)
+#View summaryDataSet 
+View(summaryDataSet)
