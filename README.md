@@ -19,8 +19,8 @@ The [run_analysis.R](https://github.com/maraisj/GettingAndCleaningDataProject/bl
 1. [Download the tidy data file.](https://github.com/maraisj/GettingAndCleaningDataProject/blob/master/summaryDataSet.txt)  
 2. Open R and change the working directory to the download location.  
 3. Run the following commands in R:  
-```tidyData <- read.table("summaryDataSet.txt", header = TRUE)```    
-```View(tidyData)```  
+```tidyData <- read.table("summaryDataSet.txt", header = TRUE)      
+View(tidyData)```  
 
 
 ##Data Source
