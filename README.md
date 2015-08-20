@@ -38,7 +38,7 @@ Please follow these instruction to get the run_analysis.R script working on your
     ```
 getwd()
     ```
-6.  The *dplyr* package is used in this script. Check if you have the *dplyr* package installed by running this command: 
+5.  The *dplyr* package is used in this script. Check if you have the *dplyr* package installed by running this command:  
     ```
 View(installed.packages())
     ```  
@@ -46,8 +46,8 @@ If you cannot find *dplyr* in the list, then please run this command first:
     ```
 install.packages("dplyr")
     ```
-7.  In R, go to *File>Open File...* ,select the *run_analysis.R* script and click *Open*.
-8.  Select all the code of the *run_analysis.R* and press the *Run* button.
+6.  In R, go to *File>Open File...* ,select the *run_analysis.R* script and click *Open*.
+7.  Select all the code of the *run_analysis.R* and press the *Run* button.
 
 The summaryDataSet dataframe will be opened and will also be written as *summaryDataSet.txt* in the "BaseDirectory".
 
