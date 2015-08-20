@@ -31,14 +31,14 @@ The data was obtained from the  [UCI machine learning website](http://archive.ic
 ##Instructions
 Please follow these instruction to get the run_analysis.R script working on your pc:  
 
-1. Download the dataset [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
-2. Unzip the dataset. This will create a directory called "UCI HAR Dataset". Move the entire "UCI HAR Dataset" directory to a directory of your choice but keep the directory name and directory structure intact. Lets call the directory where the "UCI HAR Dataset" will be stored the "BaseDirectory"
-3. Download [run_analysis.R](https://github.com/maraisj/GettingAndCleaningDataProject/blob/master/run_analysis.R) script and place it in the "BaseDirectory"
-4. Open R and change the working directory to the "BaseDirectory" location. You can check that the working directory is set correctly with this command:  
+1.  Download the dataset [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
+2.  Unzip the dataset. This will create a directory called "UCI HAR Dataset". Move the entire "UCI HAR Dataset" directory to a directory of your choice but keep the directory name and directory structure intact. Lets call the directory where the "UCI HAR Dataset" will be stored the "BaseDirectory"
+3.  Download [run_analysis.R](https://github.com/maraisj/GettingAndCleaningDataProject/blob/master/run_analysis.R) script and place it in the "BaseDirectory"
+4.  Open R and change the working directory to the "BaseDirectory" location. You can check that the working directory is set correctly with this command:  
 ```
 getwd()
 ```
-6. The *dplyr* package is used in this script. Check if you have the *dplyr* package installed by running this command:  
+6.  The *dplyr* package is used in this script. Check if you have the *dplyr* package installed by running this command: 
 ```
 View(installed.packages())
 ```  
@@ -46,8 +46,8 @@ If you cannot find *dplyr* in the list, then please run this command first:
 ```
 install.packages("dplyr")
 ```
-7. In R, go to *File>Open File...* ,select the *run_analysis.R* script and click *Open*.
-8. Select all the code of the *run_analysis.R* and press the *Run* button.
+7.  In R, go to *File>Open File...* ,select the *run_analysis.R* script and click *Open*.
+8.  Select all the code of the *run_analysis.R* and press the *Run* button.
 
 The summaryDataSet dataframe will be opened and will also be written as *summaryDataSet.txt* in the "BaseDirectory".
 
