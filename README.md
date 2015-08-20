@@ -4,9 +4,9 @@
 
                 |     
 --------------- | ---------------------
-Author          |       Johannes Marais
-Submitted       |       20 August 2015
-Course          |       Getting and Cleaning Data
+Author          | Johannes Marais
+Submitted       | 20 August 2015
+Course          | Getting and Cleaning Data
 
 ##Data Source
 
