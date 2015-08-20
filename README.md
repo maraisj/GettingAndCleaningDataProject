@@ -22,6 +22,7 @@ The [run_analysis.R](https://github.com/maraisj/GettingAndCleaningDataProject/bl
 ```tidyData <- read.table("summaryDataSet.txt", header = TRUE)```    
 ```View(tidyData)```  
 
+
 ##Data Source
 The data was obtained from the  [UCI machine learning website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and here is a link to [download the data.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 
