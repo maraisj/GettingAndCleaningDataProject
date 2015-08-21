@@ -26,7 +26,7 @@ View(tidyData)
 
    
 ##Data Source
-The data was obtained from the  [UCI machine learning website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and here is a link to [download the data.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
+The raw data was obtained from the  [UCI machine learning website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and here is a link to [download the data.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 
 ##Instructions
 Please follow these instruction to get the run_analysis.R script working on your pc:  
